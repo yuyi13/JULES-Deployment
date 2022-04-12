@@ -54,7 +54,7 @@ Modify the line 22 of the `make.cfg` file from\
 to\
 `$JULES_PLATFORM{?}        = ceh`
 
-Compile the JULES model \
+Compile the JULES model
 ```
 cd $JULES_ROOT
 fcm make -j 2 -f etc/fcm-make/make.cfg --new

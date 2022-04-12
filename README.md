@@ -36,13 +36,13 @@ If you fail at this step, it is likely to be the issue of ssh keys. Please refer
 
 ## 3. Run JULES WITHOUT rose
 **(1) Download the JULES model and compile it**
-Now create a directory under the home directory called 'MODELS', where I usually put different versions of operational models. Here I downloaded a standard version of JULESvn6.1:
-\`mkdir ~/MODELS`
-\`cd ~/MODELS`
-\`fcm co fcm:jules.x_tr@vn6.1 jules-vn6.1`
-\`export JULES_ROOT=~/MODELS/jules-vn6.1`
-\`cd $JULES_ROOT/etc/fcm-make`
-\`vi make.cfg`
+Now create a directory under the home directory called 'MODELS', where I usually put different versions of operational models. Here I downloaded a standard version of JULESvn6.1:\
+`mkdir ~/MODELS`\
+`cd ~/MODELS`\
+`fcm co fcm:jules.x_tr@vn6.1 jules-vn6.1`\
+`export JULES_ROOT=~/MODELS/jules-vn6.1`\
+`cd $JULES_ROOT/etc/fcm-make`\
+`vi make.cfg`
 
 Modify the line 22 of the `make.cfg` file from
 `$JULES_PLATFORM{?}        = custom`

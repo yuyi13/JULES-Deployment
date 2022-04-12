@@ -35,7 +35,7 @@ Run the script `/g/data/hh5/public/apps/nci_scripts/accessdev-gadi-setup` on acc
 If you fail at this step, it is likely to be due to the issue of ssh keys. Please refer to: https://accessdev.nci.org.au/trac/wiki/gadi **SSH Setup** section.
 
 ## 3. Run JULES WITHOUT rose
-In order to run a JULES model, you need three softwares namely cylc, rose, and fcm. At the NCI accessdev server we do not need set up them as they have already been pre-installed.
+In order to run a JULES model, you need three softwares namely cylc, rose, and fcm. At the NCI accessdev server we do not need to set up them as they have already been pre-installed.
 
 **3.1 Download the JULES model and compile it**
 
